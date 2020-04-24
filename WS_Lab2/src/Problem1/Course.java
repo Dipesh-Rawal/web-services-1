@@ -9,7 +9,7 @@ public class Course {
 
 	@Override
 	public String toString() {
-		return "Course [title=" + title + ", description=" + description + ", faculty=" + faculty + ", number=" + number
+		return "Course [title=" + title + ", description=" + description + ", faculty=" + faculty + ", number= " + number
 				+ "]";
 	}
 
