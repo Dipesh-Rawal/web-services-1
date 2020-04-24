@@ -22,7 +22,7 @@ public class Main {
 		while (scanner.hasNextInt()) {
 			for (int i = 0; i < dayNum; i++) {
 				for (int j = 0; j < hourNum; j++) {
-					// index 1 and 2 indicate the day and hour so skip them.
+					// index 1 and 2 indicate the day and hour so skip them
 					scanner.nextInt();
 					scanner.nextInt();
 					records[i][j][line++] = scanner.nextInt();
